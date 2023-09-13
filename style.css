@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after {
+    font-size: 16px;
+    margin: none;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+html {
+    margin: auto;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.logo {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.logo img {
+    height: 15rem
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.emoji {
+    height: 10rem;
+    transition: all .2s ease-in-out;
+}
+
+.location_banner {
+    width: 80vw;
+    max-width: 500px;
+}
+
+.location_banner img {
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.emoji:hover {
+    height: 12rem;
+    transform: scale(1.1);
+}
+
+.venue_logo img {
+    margin-top: 5rem;
+    height: 10rem;
+}
+
+.venue_logo img:hover {
+    margin-top: 5rem;
+    height: 10rem;
+    border: 10px solid rgba(34, 73, 68, 0);
+    transition: all .2s ease-in-out;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 0.9rem;
+    margin-bottom: 1rem;
+}
